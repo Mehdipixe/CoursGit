@@ -4,51 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Formualire</title>
+    <title>Menu</title>
     <style>
-        body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f8ff;
-    color: #333;
-}
-
-header {
-    background-color: #0044cc;
-    color: white;
-    text-align: center;
-    padding: 30px;
-}
-input[type="text"],
-input[type="submit"] {
-    width: 600px; 
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #3615ca;
-    border-radius: 5px;
-}
-
+     body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #610b6d;
+            padding: 10px;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        li {
+            margin: 0 15px;
+        }
+        a {
+            color: rgb(238, 72, 72);
+            text-decoration: none;
+            font-size: 18px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <h1>Formulaire</h1>
-    <form method="POST">
-        <p>
-            <label for="nom">Nom :</label>
-            <input type="text" name="Nom"/>
-        </p>
-        <p>
-            <label for="email">Email :</label>
-            <input type="text" name="Email"/>
-        </p>
-        <p>
-            <label for="Mot de passe">Mot de passe :</label>
-            <input type="text" name="Mot de passe"/>
-        </p>
-        <p>
-            <input type="submit" value="Envoyer"/>
-        </p>
-    </form>  
+    
+    <h2>Wesh C'est comment ?</h2>
+    <nav>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">À propos</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
